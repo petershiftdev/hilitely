@@ -1,8 +1,8 @@
 # Datenschutz — Hilitely
 
-**Zuletzt aktualisiert:** 7. November 2026
+**Zuletzt aktualisiert:** 8. November 2026
 
-Diese Richtlinie beschreibt, wie die Chrome-Erweiterung **Hilitely** („die Erweiterung“) mit Informationen umgeht.
+Diese Richtlinie beschreibt, wie die Erweiterung **Hilitely** für Chrome und Firefox („die Erweiterung“) mit Informationen umgeht.
 
 ## Wer die Erweiterung bereitstellt
 
@@ -30,9 +30,9 @@ Nirgendwohin. Markierungen bleiben im Browser, in der eigenen Datenbank der Erwe
 
 ## Welche Websites sie lesen kann
 
-Die Erweiterung verlangt nicht, jede Website zu lesen. Sie läuft nur auf Websites, die Sie über das Symbol in der Symbolleiste einzeln einschalten, über den eigenen Berechtigungsdialog von Chrome. Bis dahin fügt sie der Seite nichts hinzu.
+Die Erweiterung verlangt nicht, jede Website zu lesen. Sie läuft nur auf Websites, die Sie über das Symbol in der Symbolleiste einzeln einschalten, über den eigenen Berechtigungsdialog des Browsers. In Chrome ist ein Host an einem ungewöhnlichen Port eine eigene Website. In Firefox gilt die Berechtigung für einen Host auf jedem Port. Bis dahin fügt sie der Seite nichts hinzu.
 
-Eine Website auszuschalten setzt sie auf Pause. Die Markierungen verschwinden aus den offenen Tabs dieser Website, und das Skript startet dort erst wieder, wenn Sie die Website einschalten. Die Berechtigung von Chrome bleibt bestehen, deshalb fragt das erneute Einschalten nicht ein zweites Mal. „Remove access to this site“ entzieht die Berechtigung. Wenn Sie diese Website das nächste Mal einschalten, fragt Chrome erneut. Gespeicherte Zitate bleiben in beiden Fällen in der Bibliothek.
+Eine Website auszuschalten setzt sie auf Pause. Die Markierungen verschwinden aus den offenen Tabs dieser Website, und das Skript startet dort erst wieder, wenn Sie die Website einschalten. Die Berechtigung des Browsers bleibt bestehen, deshalb fragt das erneute Einschalten nicht ein zweites Mal. „Remove access to this site“ entzieht die Berechtigung. Wenn Sie diese Website das nächste Mal einschalten, fragt der Browser erneut. Gespeicherte Zitate bleiben in beiden Fällen in der Bibliothek.
 
 ## Sicherungen
 
@@ -49,7 +49,7 @@ Löschen Sie eine Markierung auf der Seite oder in der Bibliothek, oder verwende
 | `storage` | Speichert Einstellungen auf diesem Computer: die letzte Markierungsfarbe, ob der Cursor in das Notizfeld gesetzt wird, welche aktivierten Websites Sie ausgeschaltet haben und wie die Bibliothek Websites sortiert. Zitate liegen in der eigenen Datenbank der Erweiterung; diese Berechtigung speichert sie nicht. |
 | `activeTab` | Wenn Sie auf das Symbol in der Symbolleiste klicken, liest das Fenster die Adresse des aktuellen Tabs, um den Schalter für diese Website anzuzeigen und die Markierungen der Seite durchzugehen. |
 | `scripting` | Startet die Markierung im aktuellen Tab direkt nach dem Einschalten der Website und in bereits geöffneten Tabs dieser Website, ohne die Seite neu zu laden. Beim Ausschalten entfernt sie die Markierungen aus diesen Tabs. |
-| Zugriff auf Websites | Wird bei der Installation nicht erteilt. Chrome fragt jeweils eine Website, wenn Sie sie zum ersten Mal einschalten. Die Markierung läuft nur auf Websites, die Sie erlaubt und nicht ausgeschaltet haben. Ausschalten beendet sie dort und behält die Berechtigung. „Remove access to this site“ entzieht sie. |
+| Zugriff auf Websites | Wird bei der Installation nicht erteilt. Der Browser fragt jeweils eine Website, wenn Sie sie zum ersten Mal einschalten. In Chrome ist ein Host an einem ungewöhnlichen Port eine eigene Website. In Firefox gilt die Berechtigung für einen Host auf jedem Port. Die Markierung läuft nur auf Websites, die Sie erlaubt und nicht ausgeschaltet haben. Ausschalten beendet sie dort und behält die Berechtigung. „Remove access to this site“ entzieht sie. |
 
 ## Fremder Code
 

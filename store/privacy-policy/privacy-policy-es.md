@@ -1,8 +1,8 @@
 # Política de privacidad — Hilitely
 
-**Última actualización:** 7 de noviembre de 2026
+**Última actualización:** 8 de noviembre de 2026
 
-Esta política describe cómo trata la información la extensión de Chrome **Hilitely** («la Extensión»).
+Esta política describe cómo trata la información la extensión **Hilitely** para Chrome y Firefox («la Extensión»).
 
 ## Quién ofrece la Extensión
 
@@ -30,9 +30,9 @@ A ninguna parte. Los resaltados permanecen en el navegador, en la base de datos 
 
 ## Qué sitios puede leer
 
-La Extensión no pide leer todos los sitios. Solo funciona en los sitios que activas desde el icono de la barra, de uno en uno, mediante el diálogo de permisos de Chrome. Hasta que lo hagas, no añade nada a la página.
+La Extensión no pide leer todos los sitios. Solo funciona en los sitios que activas desde el icono de la barra, de uno en uno, mediante el diálogo de permisos del navegador. En Chrome, un host en un puerto no estándar es un sitio aparte. En Firefox, el permiso de un host cubre ese host en cualquier puerto. Hasta que lo hagas, no añade nada a la página.
 
-Desactivar un sitio lo pone en pausa. Los resaltados desaparecen de las pestañas abiertas de ese sitio, y el script no vuelve a iniciarse allí hasta que lo actives de nuevo. El permiso de Chrome se conserva, así que volver a activarlo no pide permiso otra vez. «Remove access to this site» retira el permiso. La próxima vez que actives ese sitio, Chrome volverá a preguntar. Las citas guardadas siguen en la biblioteca en ambos casos.
+Desactivar un sitio lo pone en pausa. Los resaltados desaparecen de las pestañas abiertas de ese sitio, y el script no vuelve a iniciarse allí hasta que lo actives de nuevo. El permiso del navegador se conserva, así que volver a activarlo no pide permiso otra vez. «Remove access to this site» retira el permiso. La próxima vez que actives ese sitio, el navegador volverá a preguntar. Las citas guardadas siguen en la biblioteca en ambos casos.
 
 ## Copias de seguridad
 
@@ -49,7 +49,7 @@ Elimina un resaltado desde la página o desde la biblioteca, o usa Delete all on
 | `storage` | Guarda ajustes en este equipo: el último color de resaltado, si el cursor se coloca en la nota, qué sitios activados desactivaste y cómo ordena la biblioteca los sitios. Las citas están en la base de datos propia de la Extensión; este permiso no las guarda. |
 | `activeTab` | Cuando pulsas el icono de la barra, la ventana lee la dirección de la pestaña actual para mostrar el interruptor de ese sitio y recorrer los resaltados de la página. |
 | `scripting` | Inicia el resaltado en la pestaña actual justo después de activar el sitio, y en las pestañas de ese sitio que ya están abiertas, sin recargar la página. Al desactivar el sitio, quita los resaltados de esas pestañas. |
-| Acceso a sitios | No se concede al instalar. Chrome pide un sitio cada vez, la primera vez que lo activas. El resaltado solo funciona en los sitios que permitiste y no desactivaste. Desactivarlo lo detiene allí y conserva el permiso. «Remove access to this site» lo retira. |
+| Acceso a sitios | No se concede al instalar. El navegador pide un sitio cada vez, la primera vez que lo activas. En Chrome, un host en un puerto no estándar es un sitio aparte. En Firefox, el permiso de un host cubre ese host en cualquier puerto. El resaltado solo funciona en los sitios que permitiste y no desactivaste. Desactivarlo lo detiene allí y conserva el permiso. «Remove access to this site» lo retira. |
 
 ## Código remoto
 

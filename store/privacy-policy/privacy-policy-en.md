@@ -1,8 +1,8 @@
 # Privacy Policy — Hilitely
 
-**Last updated:** 7 November 2026
+**Last updated:** 8 November 2026
 
-This policy describes how the Chrome extension **Hilitely** ("the Extension") handles information.
+This policy describes how the Chrome and Firefox extension **Hilitely** ("the Extension") handles information.
 
 ## Who provides the Extension
 
@@ -30,9 +30,9 @@ Nowhere. Highlights stay in the browser, in the Extension's own database on this
 
 ## Which sites it can read
 
-The Extension does not ask to read every site. It runs only on sites you switch on from the toolbar icon, one site at a time, through Chrome's own permission dialog. Until you do, it adds nothing to the page.
+The Extension does not ask to read every site. It runs only on sites you switch on from the toolbar icon, one site at a time, through the browser's own permission dialog. In Chrome, a host on a non-standard port is a separate site. In Firefox, permission for a host covers that host on any port. Until you do, it adds nothing to the page.
 
-Switching a site off pauses it. Highlights disappear from that site's open tabs, and the script does not start there again until you switch it back on. Chrome's permission stays, so turning it back on does not ask a second time. "Remove access to this site" takes the permission away. The next time you switch that site on, Chrome asks again. Saved quotes stay in the library either way.
+Switching a site off pauses it. Highlights disappear from that site's open tabs, and the script does not start there again until you switch it back on. The browser's permission stays, so turning it back on does not ask a second time. "Remove access to this site" takes the permission away. The next time you switch that site on, the browser asks again. Saved quotes stay in the library either way.
 
 ## Backups
 
@@ -49,7 +49,7 @@ Delete a highlight from the page or from the library, or use Delete all on this 
 | `storage` | Saves settings on this computer: the last highlight color, whether the cursor goes to the note field, which enabled sites you switched off, and how the library sorts sites. Saved quotes are kept in the Extension's own database; this permission is not what stores them. |
 | `activeTab` | When you click the toolbar icon, the popup reads the current tab's address to show the switch for that site and to step through the highlights on that page. |
 | `scripting` | Starts the highlighter in the current tab right after you switch the site on, and in tabs of that site that are already open, so the page does not have to be reloaded. Removes the highlights from those tabs when you switch the site off. |
-| Host access | Not granted at install. Chrome asks for one site at a time, the first time you switch that site on. The highlighter runs only on sites you allowed and have not switched off. Switching a site off stops it there and keeps the permission. "Remove access to this site" removes it. |
+| Host access | Not granted at install. The browser asks for one site at a time, the first time you switch that site on. In Chrome, a host on a non-standard port is a separate site. In Firefox, permission for a host covers that host on any port. The highlighter runs only on sites you allowed and have not switched off. Switching a site off stops it there and keeps the permission. "Remove access to this site" removes it. |
 
 ## Remote code
 

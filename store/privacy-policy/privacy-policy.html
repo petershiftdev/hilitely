@@ -48,8 +48,8 @@
 
   <article id="en" lang="en">
     <h1>Privacy Policy — Hilitely</h1>
-    <p><strong>Last updated:</strong> 7 November 2026</p>
-    <p>This policy describes how the Chrome extension <strong>Hilitely</strong> ("the Extension") handles information.</p>
+    <p><strong>Last updated:</strong> 8 November 2026</p>
+    <p>This policy describes how the Chrome and Firefox extension <strong>Hilitely</strong> ("the Extension") handles information.</p>
 
     <h2>Who provides the Extension</h2>
     <p>The Extension is published by <strong>PeterShift</strong>.<br>Contact: <strong>petershift.dev@gmail.com</strong></p>
@@ -71,8 +71,8 @@
     <p>Nowhere. Highlights stay in the browser, in the Extension's own database on this computer. The Extension has no server, no account, and no analytics. The Extension makes no network requests. We never receive your highlights, notes, or the addresses of the pages you read.</p>
 
     <h2>Which sites it can read</h2>
-    <p>The Extension does not ask to read every site. It runs only on sites you switch on from the toolbar icon, one site at a time, through Chrome's own permission dialog. Until you do, it adds nothing to the page.</p>
-    <p>Switching a site off pauses it. Highlights disappear from that site's open tabs, and the script does not start there again until you switch it back on. Chrome's permission stays, so turning it back on does not ask a second time. "Remove access to this site" takes the permission away. The next time you switch that site on, Chrome asks again. Saved quotes stay in the library either way.</p>
+    <p>The Extension does not ask to read every site. It runs only on sites you switch on from the toolbar icon, one site at a time, through the browser's own permission dialog. In Chrome, a host on a non-standard port is a separate site. In Firefox, permission for a host covers that host on any port. Until you do, it adds nothing to the page.</p>
+    <p>Switching a site off pauses it. Highlights disappear from that site's open tabs, and the script does not start there again until you switch it back on. The browser's permission stays, so turning it back on does not ask a second time. "Remove access to this site" takes the permission away. The next time you switch that site on, the browser asks again. Saved quotes stay in the library either way.</p>
 
     <h2>Backups</h2>
     <p>A backup file is created only when you choose Download backup. It is saved where your browser saves downloads. Importing a backup reads a file you choose. Neither is uploaded anywhere.</p>
@@ -89,7 +89,7 @@
         <tr><td><code>storage</code></td><td>Saves settings on this computer: the last highlight color, whether the cursor goes to the note field, which enabled sites you switched off, and how the library sorts sites. Saved quotes are kept in the Extension's own database; this permission is not what stores them.</td></tr>
         <tr><td><code>activeTab</code></td><td>When you click the toolbar icon, the popup reads the current tab's address to show the switch for that site and to step through the highlights on that page.</td></tr>
         <tr><td><code>scripting</code></td><td>Starts the highlighter in the current tab right after you switch the site on, and in tabs of that site that are already open, so the page does not have to be reloaded. Removes the highlights from those tabs when you switch the site off.</td></tr>
-        <tr><td>Host access</td><td>Not granted at install. Chrome asks for one site at a time, the first time you switch that site on. The highlighter runs only on sites you allowed and have not switched off. Switching a site off stops it there and keeps the permission. "Remove access to this site" removes it.</td></tr>
+        <tr><td>Host access</td><td>Not granted at install. The browser asks for one site at a time, the first time you switch that site on. In Chrome, a host on a non-standard port is a separate site. In Firefox, permission for a host covers that host on any port. The highlighter runs only on sites you allowed and have not switched off. Switching a site off stops it there and keeps the permission. "Remove access to this site" removes it.</td></tr>
       </tbody>
     </table>
 
@@ -110,8 +110,8 @@
 
   <article id="ru" lang="ru">
     <h1>Политика конфиденциальности — Hilitely</h1>
-    <p><strong>Дата обновления:</strong> 7 ноября 2026 г.</p>
-    <p>Эта политика описывает, как расширение Chrome <strong>Hilitely</strong> (далее — «Расширение») обращается со сведениями.</p>
+    <p><strong>Дата обновления:</strong> 8 ноября 2026 г.</p>
+    <p>Эта политика описывает, как расширение <strong>Hilitely</strong> для Chrome и Firefox (далее — «Расширение») обращается со сведениями.</p>
 
     <h2>Кто предоставляет Расширение</h2>
     <p>Расширение публикует <strong>PeterShift</strong>.<br>Контакт: <strong>petershift.dev@gmail.com</strong></p>
@@ -133,8 +133,8 @@
     <p>Никуда. Подсветки остаются в браузере, в собственной базе Расширения на этом компьютере. У Расширения нет сервера, аккаунта и аналитики. Расширение не делает запросов в сеть. Мы не получаем ваши подсветки, заметки и адреса страниц, которые вы читаете.</p>
 
     <h2>Какие сайты оно может читать</h2>
-    <p>Расширение не просит доступ ко всем сайтам. Оно работает только на сайтах, которые вы включаете значком на панели инструментов, по одному сайту, через собственный диалог разрешений Chrome. Пока вы этого не сделаете, оно ничего не добавляет на страницу.</p>
-    <p>Выключение сайта ставит его на паузу. Подсветки исчезают с открытых вкладок этого сайта, и скрипт там снова не запускается, пока вы не включите сайт обратно. Разрешение Chrome сохраняется, поэтому повторное включение не спрашивает доступ второй раз. «Remove access to this site» забирает разрешение. В следующий раз, когда вы включите этот сайт, Chrome спросит снова. Сохранённые цитаты в обоих случаях остаются в библиотеке.</p>
+    <p>Расширение не просит доступ ко всем сайтам. Оно работает только на сайтах, которые вы включаете значком на панели инструментов, по одному сайту, через собственный диалог разрешений браузера. В Chrome хост на нестандартном порту — отдельный сайт. В Firefox разрешение на хост покрывает этот хост на любом порту. Пока вы этого не сделаете, оно ничего не добавляет на страницу.</p>
+    <p>Выключение сайта ставит его на паузу. Подсветки исчезают с открытых вкладок этого сайта, и скрипт там снова не запускается, пока вы не включите сайт обратно. Разрешение браузера сохраняется, поэтому повторное включение не спрашивает доступ второй раз. «Remove access to this site» забирает разрешение. В следующий раз, когда вы включите этот сайт, браузер спросит снова. Сохранённые цитаты в обоих случаях остаются в библиотеке.</p>
 
     <h2>Резервные копии</h2>
     <p>Файл резервной копии создаётся только когда вы выбираете Download backup. Он сохраняется туда, куда браузер сохраняет загрузки. Импорт читает файл, который выбираете вы. Ни то ни другое никуда не отправляется.</p>
@@ -151,7 +151,7 @@
         <tr><td><code>storage</code></td><td>Хранит настройки на этом компьютере: последний цвет подсветки, ставить ли курсор в поле заметки, какие включённые сайты вы выключили и как библиотека сортирует сайты. Цитаты лежат в собственной базе Расширения; это разрешение их не хранит.</td></tr>
         <tr><td><code>activeTab</code></td><td>Когда вы нажимаете значок на панели, окно читает адрес текущей вкладки, чтобы показать переключатель этого сайта и переходить по подсветкам на странице.</td></tr>
         <tr><td><code>scripting</code></td><td>Запускает подсветку в текущей вкладке сразу после включения сайта и в уже открытых вкладках этого сайта, без перезагрузки страницы. При выключении сайта снимает подсветки с этих вкладок.</td></tr>
-        <tr><td>Доступ к сайтам</td><td>При установке не выдаётся. Chrome спрашивает по одному сайту, когда вы впервые его включаете. Подсветка работает только на сайтах, которые вы разрешили и не выключили. Выключение останавливает её на сайте и сохраняет разрешение. «Remove access to this site» это разрешение забирает.</td></tr>
+        <tr><td>Доступ к сайтам</td><td>При установке не выдаётся. Браузер спрашивает по одному сайту, когда вы впервые его включаете. В Chrome хост на нестандартном порту — отдельный сайт. В Firefox разрешение на хост покрывает этот хост на любом порту. Подсветка работает только на сайтах, которые вы разрешили и не выключили. Выключение останавливает её на сайте и сохраняет разрешение. «Remove access to this site» это разрешение забирает.</td></tr>
       </tbody>
     </table>
 
@@ -172,8 +172,8 @@
 
   <article id="de" lang="de">
     <h1>Datenschutz — Hilitely</h1>
-    <p><strong>Zuletzt aktualisiert:</strong> 7. November 2026</p>
-    <p>Diese Richtlinie beschreibt, wie die Chrome-Erweiterung <strong>Hilitely</strong> („die Erweiterung“) mit Informationen umgeht.</p>
+    <p><strong>Zuletzt aktualisiert:</strong> 8. November 2026</p>
+    <p>Diese Richtlinie beschreibt, wie die Erweiterung <strong>Hilitely</strong> für Chrome und Firefox („die Erweiterung“) mit Informationen umgeht.</p>
 
     <h2>Wer die Erweiterung bereitstellt</h2>
     <p>Die Erweiterung wird von <strong>PeterShift</strong> veröffentlicht.<br>Kontakt: <strong>petershift.dev@gmail.com</strong></p>
@@ -195,8 +195,8 @@
     <p>Nirgendwohin. Markierungen bleiben im Browser, in der eigenen Datenbank der Erweiterung auf diesem Computer. Die Erweiterung hat keinen Server, kein Konto und keine Analyse. Sie stellt keine Netzwerkanfragen. Wir erhalten Ihre Markierungen, Notizen und die Adressen der Seiten, die Sie lesen, nicht.</p>
 
     <h2>Welche Websites sie lesen kann</h2>
-    <p>Die Erweiterung verlangt nicht, jede Website zu lesen. Sie läuft nur auf Websites, die Sie über das Symbol in der Symbolleiste einzeln einschalten, über den eigenen Berechtigungsdialog von Chrome. Bis dahin fügt sie der Seite nichts hinzu.</p>
-    <p>Eine Website auszuschalten setzt sie auf Pause. Die Markierungen verschwinden aus den offenen Tabs dieser Website, und das Skript startet dort erst wieder, wenn Sie die Website einschalten. Die Berechtigung von Chrome bleibt bestehen, deshalb fragt das erneute Einschalten nicht ein zweites Mal. „Remove access to this site“ entzieht die Berechtigung. Wenn Sie diese Website das nächste Mal einschalten, fragt Chrome erneut. Gespeicherte Zitate bleiben in beiden Fällen in der Bibliothek.</p>
+    <p>Die Erweiterung verlangt nicht, jede Website zu lesen. Sie läuft nur auf Websites, die Sie über das Symbol in der Symbolleiste einzeln einschalten, über den eigenen Berechtigungsdialog des Browsers. In Chrome ist ein Host an einem ungewöhnlichen Port eine eigene Website. In Firefox gilt die Berechtigung für einen Host auf jedem Port. Bis dahin fügt sie der Seite nichts hinzu.</p>
+    <p>Eine Website auszuschalten setzt sie auf Pause. Die Markierungen verschwinden aus den offenen Tabs dieser Website, und das Skript startet dort erst wieder, wenn Sie die Website einschalten. Die Berechtigung des Browsers bleibt bestehen, deshalb fragt das erneute Einschalten nicht ein zweites Mal. „Remove access to this site“ entzieht die Berechtigung. Wenn Sie diese Website das nächste Mal einschalten, fragt der Browser erneut. Gespeicherte Zitate bleiben in beiden Fällen in der Bibliothek.</p>
 
     <h2>Sicherungen</h2>
     <p>Eine Sicherungsdatei entsteht nur, wenn Sie Download backup wählen. Sie wird dort gespeichert, wo Ihr Browser Downloads ablegt. Der Import liest eine Datei, die Sie auswählen. Beides wird nirgendwohin hochgeladen.</p>
@@ -213,7 +213,7 @@
         <tr><td><code>storage</code></td><td>Speichert Einstellungen auf diesem Computer: die letzte Markierungsfarbe, ob der Cursor in das Notizfeld gesetzt wird, welche aktivierten Websites Sie ausgeschaltet haben und wie die Bibliothek Websites sortiert. Zitate liegen in der eigenen Datenbank der Erweiterung; diese Berechtigung speichert sie nicht.</td></tr>
         <tr><td><code>activeTab</code></td><td>Wenn Sie auf das Symbol in der Symbolleiste klicken, liest das Fenster die Adresse des aktuellen Tabs, um den Schalter für diese Website anzuzeigen und die Markierungen der Seite durchzugehen.</td></tr>
         <tr><td><code>scripting</code></td><td>Startet die Markierung im aktuellen Tab direkt nach dem Einschalten der Website und in bereits geöffneten Tabs dieser Website, ohne die Seite neu zu laden. Beim Ausschalten entfernt sie die Markierungen aus diesen Tabs.</td></tr>
-        <tr><td>Zugriff auf Websites</td><td>Wird bei der Installation nicht erteilt. Chrome fragt jeweils eine Website, wenn Sie sie zum ersten Mal einschalten. Die Markierung läuft nur auf Websites, die Sie erlaubt und nicht ausgeschaltet haben. Ausschalten beendet sie dort und behält die Berechtigung. „Remove access to this site“ entzieht sie.</td></tr>
+        <tr><td>Zugriff auf Websites</td><td>Wird bei der Installation nicht erteilt. Der Browser fragt jeweils eine Website, wenn Sie sie zum ersten Mal einschalten. In Chrome ist ein Host an einem ungewöhnlichen Port eine eigene Website. In Firefox gilt die Berechtigung für einen Host auf jedem Port. Die Markierung läuft nur auf Websites, die Sie erlaubt und nicht ausgeschaltet haben. Ausschalten beendet sie dort und behält die Berechtigung. „Remove access to this site“ entzieht sie.</td></tr>
       </tbody>
     </table>
 
@@ -234,8 +234,8 @@
 
   <article id="es" lang="es">
     <h1>Política de privacidad — Hilitely</h1>
-    <p><strong>Última actualización:</strong> 7 de noviembre de 2026</p>
-    <p>Esta política describe cómo trata la información la extensión de Chrome <strong>Hilitely</strong> («la Extensión»).</p>
+    <p><strong>Última actualización:</strong> 8 de noviembre de 2026</p>
+    <p>Esta política describe cómo trata la información la extensión <strong>Hilitely</strong> para Chrome y Firefox («la Extensión»).</p>
 
     <h2>Quién ofrece la Extensión</h2>
     <p>La Extensión la publica <strong>PeterShift</strong>.<br>Contacto: <strong>petershift.dev@gmail.com</strong></p>
@@ -257,8 +257,8 @@
     <p>A ninguna parte. Los resaltados permanecen en el navegador, en la base de datos propia de la Extensión en este equipo. La Extensión no tiene servidor, ni cuenta, ni analítica. No hace peticiones de red. Nosotros no recibimos tus resaltados, tus notas ni las direcciones de las páginas que lees.</p>
 
     <h2>Qué sitios puede leer</h2>
-    <p>La Extensión no pide leer todos los sitios. Solo funciona en los sitios que activas desde el icono de la barra, de uno en uno, mediante el diálogo de permisos de Chrome. Hasta que lo hagas, no añade nada a la página.</p>
-    <p>Desactivar un sitio lo pone en pausa. Los resaltados desaparecen de las pestañas abiertas de ese sitio, y el script no vuelve a iniciarse allí hasta que lo actives de nuevo. El permiso de Chrome se conserva, así que volver a activarlo no pide permiso otra vez. «Remove access to this site» retira el permiso. La próxima vez que actives ese sitio, Chrome volverá a preguntar. Las citas guardadas siguen en la biblioteca en ambos casos.</p>
+    <p>La Extensión no pide leer todos los sitios. Solo funciona en los sitios que activas desde el icono de la barra, de uno en uno, mediante el diálogo de permisos del navegador. En Chrome, un host en un puerto no estándar es un sitio aparte. En Firefox, el permiso de un host cubre ese host en cualquier puerto. Hasta que lo hagas, no añade nada a la página.</p>
+    <p>Desactivar un sitio lo pone en pausa. Los resaltados desaparecen de las pestañas abiertas de ese sitio, y el script no vuelve a iniciarse allí hasta que lo actives de nuevo. El permiso del navegador se conserva, así que volver a activarlo no pide permiso otra vez. «Remove access to this site» retira el permiso. La próxima vez que actives ese sitio, el navegador volverá a preguntar. Las citas guardadas siguen en la biblioteca en ambos casos.</p>
 
     <h2>Copias de seguridad</h2>
     <p>El archivo de copia se crea solo cuando eliges Download backup. Se guarda donde el navegador guarda las descargas. La importación lee un archivo que eliges tú. Ninguno de los dos se envía a ninguna parte.</p>
@@ -275,7 +275,7 @@
         <tr><td><code>storage</code></td><td>Guarda ajustes en este equipo: el último color de resaltado, si el cursor se coloca en la nota, qué sitios activados desactivaste y cómo ordena la biblioteca los sitios. Las citas están en la base de datos propia de la Extensión; este permiso no las guarda.</td></tr>
         <tr><td><code>activeTab</code></td><td>Cuando pulsas el icono de la barra, la ventana lee la dirección de la pestaña actual para mostrar el interruptor de ese sitio y recorrer los resaltados de la página.</td></tr>
         <tr><td><code>scripting</code></td><td>Inicia el resaltado en la pestaña actual justo después de activar el sitio, y en las pestañas de ese sitio que ya están abiertas, sin recargar la página. Al desactivar el sitio, quita los resaltados de esas pestañas.</td></tr>
-        <tr><td>Acceso a sitios</td><td>No se concede al instalar. Chrome pide un sitio cada vez, la primera vez que lo activas. El resaltado solo funciona en los sitios que permitiste y no desactivaste. Desactivarlo lo detiene allí y conserva el permiso. «Remove access to this site» lo retira.</td></tr>
+        <tr><td>Acceso a sitios</td><td>No se concede al instalar. El navegador pide un sitio cada vez, la primera vez que lo activas. En Chrome, un host en un puerto no estándar es un sitio aparte. En Firefox, el permiso de un host cubre ese host en cualquier puerto. El resaltado solo funciona en los sitios que permitiste y no desactivaste. Desactivarlo lo detiene allí y conserva el permiso. «Remove access to this site» lo retira.</td></tr>
       </tbody>
     </table>
 
@@ -296,8 +296,8 @@
 
   <article id="fr" lang="fr">
     <h1>Politique de confidentialité — Hilitely</h1>
-    <p><strong>Dernière mise à jour :</strong> 7 novembre 2026</p>
-    <p>Cette politique décrit comment l'extension Chrome <strong>Hilitely</strong> (« l'Extension ») traite les informations.</p>
+    <p><strong>Dernière mise à jour :</strong> 8 novembre 2026</p>
+    <p>Cette politique décrit comment l'extension <strong>Hilitely</strong> pour Chrome et Firefox (« l'Extension ») traite les informations.</p>
 
     <h2>Qui fournit l'Extension</h2>
     <p>L'Extension est publiée par <strong>PeterShift</strong>.<br>Contact : <strong>petershift.dev@gmail.com</strong></p>
@@ -319,8 +319,8 @@
     <p>Nulle part. Les surlignages restent dans le navigateur, dans la base propre à l'Extension sur cet ordinateur. L'Extension n'a pas de serveur, pas de compte et pas d'analyse. Elle n'envoie aucune requête réseau. Nous ne recevons ni vos surlignages, ni vos notes, ni les adresses des pages que vous lisez.</p>
 
     <h2>Quels sites elle peut lire</h2>
-    <p>L'Extension ne demande pas à lire tous les sites. Elle ne fonctionne que sur les sites que vous activez depuis l'icône de la barre d'outils, un site à la fois, par la boîte de permission de Chrome. Tant que vous ne le faites pas, elle n'ajoute rien à la page.</p>
-    <p>Désactiver un site le met en pause. Les surlignages disparaissent des onglets ouverts de ce site, et le script n'y redémarre pas tant que vous ne le réactivez pas. L'autorisation de Chrome reste en place, donc la réactivation ne redemande pas l'accès. « Remove access to this site » retire l'autorisation. La prochaine fois que vous activez ce site, Chrome redemande. Les citations enregistrées restent dans la bibliothèque dans les deux cas.</p>
+    <p>L'Extension ne demande pas à lire tous les sites. Elle ne fonctionne que sur les sites que vous activez depuis l'icône de la barre d'outils, un site à la fois, par la boîte de permission du navigateur. Dans Chrome, un hôte sur un port non standard est un site à part. Dans Firefox, l'autorisation d'un hôte couvre cet hôte sur n'importe quel port. Tant que vous ne le faites pas, elle n'ajoute rien à la page.</p>
+    <p>Désactiver un site le met en pause. Les surlignages disparaissent des onglets ouverts de ce site, et le script n'y redémarre pas tant que vous ne le réactivez pas. L'autorisation du navigateur reste en place, donc la réactivation ne redemande pas l'accès. « Remove access to this site » retire l'autorisation. La prochaine fois que vous activez ce site, le navigateur redemande. Les citations enregistrées restent dans la bibliothèque dans les deux cas.</p>
 
     <h2>Sauvegardes</h2>
     <p>Un fichier de sauvegarde n'est créé que lorsque vous choisissez Download backup. Il est enregistré là où le navigateur place les téléchargements. L'import lit un fichier que vous choisissez. Ni l'un ni l'autre n'est envoyé où que ce soit.</p>
@@ -337,7 +337,7 @@
         <tr><td><code>storage</code></td><td>Enregistre les réglages sur cet ordinateur : la dernière couleur de surlignage, le placement du curseur dans la note, les sites activés que vous avez désactivés et le tri des sites dans la bibliothèque. Les citations sont dans la base propre à l'Extension ; cette autorisation ne les stocke pas.</td></tr>
         <tr><td><code>activeTab</code></td><td>Lorsque vous cliquez sur l'icône de la barre, la fenêtre lit l'adresse de l'onglet actuel pour afficher l'interrupteur de ce site et parcourir les surlignages de la page.</td></tr>
         <tr><td><code>scripting</code></td><td>Démarre le surlignage dans l'onglet actuel juste après l'activation du site, et dans les onglets déjà ouverts de ce site, sans recharger la page. Lorsque vous désactivez le site, les surlignages sont retirés de ces onglets.</td></tr>
-        <tr><td>Accès aux sites</td><td>Il n'est pas accordé à l'installation. Chrome demande un site à la fois, la première fois que vous l'activez. Le surlignage ne fonctionne que sur les sites que vous avez autorisés et pas désactivés. Le désactiver l'arrête sur ce site et conserve l'autorisation. « Remove access to this site » la retire.</td></tr>
+        <tr><td>Accès aux sites</td><td>Il n'est pas accordé à l'installation. Le navigateur demande un site à la fois, la première fois que vous l'activez. Dans Chrome, un hôte sur un port non standard est un site à part. Dans Firefox, l'autorisation d'un hôte couvre cet hôte sur n'importe quel port. Le surlignage ne fonctionne que sur les sites que vous avez autorisés et pas désactivés. Le désactiver l'arrête sur ce site et conserve l'autorisation. « Remove access to this site » la retire.</td></tr>
       </tbody>
     </table>
 
@@ -358,8 +358,8 @@
 
   <article id="pt_BR" lang="pt-BR" data-langs="pt pt-BR">
     <h1>Política de privacidade — Hilitely</h1>
-    <p><strong>Última atualização:</strong> 7 de novembro de 2026</p>
-    <p>Esta política descreve como a extensão do Chrome <strong>Hilitely</strong> (“a Extensão”) lida com informações.</p>
+    <p><strong>Última atualização:</strong> 8 de novembro de 2026</p>
+    <p>Esta política descreve como a extensão <strong>Hilitely</strong> para Chrome e Firefox (“a Extensão”) lida com informações.</p>
 
     <h2>Quem fornece a Extensão</h2>
     <p>A Extensão é publicada por <strong>PeterShift</strong>.<br>Contato: <strong>petershift.dev@gmail.com</strong></p>
@@ -381,8 +381,8 @@
     <p>Para lugar nenhum. Os destaques ficam no navegador, no banco de dados próprio da Extensão neste computador. A Extensão não tem servidor, nem conta, nem análise. Ela não faz requisições de rede. Nós não recebemos seus destaques, suas notas nem os endereços das páginas que você lê.</p>
 
     <h2>Quais sites ela pode ler</h2>
-    <p>A Extensão não pede para ler todos os sites. Ela só funciona nos sites que você ativa pelo ícone da barra, um site de cada vez, pelo diálogo de permissão do Chrome. Até você fazer isso, ela não acrescenta nada à página.</p>
-    <p>Desligar um site o coloca em pausa. Os destaques somem das abas abertas desse site, e o script não volta a iniciar ali até você ligá-lo de novo. A permissão do Chrome permanece, então ligar de novo não pede acesso outra vez. “Remove access to this site” retira a permissão. Na próxima vez que você ativar esse site, o Chrome pergunta de novo. As citações salvas continuam na biblioteca nos dois casos.</p>
+    <p>A Extensão não pede para ler todos os sites. Ela só funciona nos sites que você ativa pelo ícone da barra, um site de cada vez, pelo diálogo de permissão do navegador. No Chrome, um host em uma porta fora do padrão é um site separado. No Firefox, a permissão de um host cobre esse host em qualquer porta. Até você fazer isso, ela não acrescenta nada à página.</p>
+    <p>Desligar um site o coloca em pausa. Os destaques somem das abas abertas desse site, e o script não volta a iniciar ali até você ligá-lo de novo. A permissão do navegador permanece, então ligar de novo não pede acesso outra vez. “Remove access to this site” retira a permissão. Na próxima vez que você ativar esse site, o navegador pergunta de novo. As citações salvas continuam na biblioteca nos dois casos.</p>
 
     <h2>Backups</h2>
     <p>O arquivo de backup só é criado quando você escolhe Download backup. Ele é salvo onde o navegador salva os downloads. A importação lê um arquivo que você escolhe. Nenhum dos dois é enviado para lugar nenhum.</p>
@@ -399,7 +399,7 @@
         <tr><td><code>storage</code></td><td>Guarda configurações neste computador: a última cor de destaque, se o cursor vai para a nota, quais sites ativados você desligou e como a biblioteca ordena os sites. As citações ficam no banco próprio da Extensão; esta permissão não as guarda.</td></tr>
         <tr><td><code>activeTab</code></td><td>Quando você clica no ícone da barra, a janela lê o endereço da aba atual para mostrar o interruptor daquele site e percorrer os destaques da página.</td></tr>
         <tr><td><code>scripting</code></td><td>Inicia o destaque na aba atual logo depois que você ativa o site, e nas abas daquele site que já estão abertas, sem recarregar a página. Ao desligar o site, remove os destaques dessas abas.</td></tr>
-        <tr><td>Acesso a sites</td><td>Não é concedido na instalação. O Chrome pede um site de cada vez, na primeira vez que você o ativa. O destaque só funciona nos sites que você permitiu e não desligou. Desligar interrompe o destaque naquele site e mantém a permissão. “Remove access to this site” a remove.</td></tr>
+        <tr><td>Acesso a sites</td><td>Não é concedido na instalação. O navegador pede um site de cada vez, na primeira vez que você o ativa. No Chrome, um host em uma porta fora do padrão é um site separado. No Firefox, a permissão de um host cobre esse host em qualquer porta. O destaque só funciona nos sites que você permitiu e não desligou. Desligar interrompe o destaque naquele site e mantém a permissão. “Remove access to this site” a remove.</td></tr>
       </tbody>
     </table>
 
@@ -420,8 +420,8 @@
 
   <article id="uk" lang="uk">
     <h1>Політика конфіденційності — Hilitely</h1>
-    <p><strong>Дата оновлення:</strong> 7 листопада 2026 р.</p>
-    <p>Ця політика описує, як розширення Chrome <strong>Hilitely</strong> (далі — «Розширення») поводиться з відомостями.</p>
+    <p><strong>Дата оновлення:</strong> 8 листопада 2026 р.</p>
+    <p>Ця політика описує, як розширення <strong>Hilitely</strong> для Chrome і Firefox (далі — «Розширення») поводиться з відомостями.</p>
 
     <h2>Хто надає Розширення</h2>
     <p>Розширення публікує <strong>PeterShift</strong>.<br>Контакт: <strong>petershift.dev@gmail.com</strong></p>
@@ -443,8 +443,8 @@
     <p>Нікуди. Підсвітки лишаються в браузері, у власній базі Розширення на цьому комп’ютері. У Розширення немає сервера, облікового запису й аналітики. Розширення не робить запитів у мережу. Ми не отримуємо ваші підсвітки, нотатки й адреси сторінок, які ви читаєте.</p>
 
     <h2>Які сайти воно може читати</h2>
-    <p>Розширення не просить доступ до всіх сайтів. Воно працює лише на сайтах, які ви вмикаєте значком на панелі інструментів, по одному сайту, через власний діалог дозволів Chrome. Поки ви цього не зробите, воно нічого не додає на сторінку.</p>
-    <p>Вимкнення сайту ставить його на паузу. Підсвітки зникають з відкритих вкладок цього сайту, і скрипт там знову не запускається, доки ви не увімкнете сайт назад. Дозвіл Chrome зберігається, тому повторне ввімкнення не питає доступ удруге. «Remove access to this site» забирає дозвіл. Наступного разу, коли ви увімкнете цей сайт, Chrome спитає знову. Збережені цитати в обох випадках лишаються в бібліотеці.</p>
+    <p>Розширення не просить доступ до всіх сайтів. Воно працює лише на сайтах, які ви вмикаєте значком на панелі інструментів, по одному сайту, через власний діалог дозволів браузера. У Chrome хост на нестандартному порту — окремий сайт. У Firefox дозвіл на хост покриває цей хост на будь-якому порту. Поки ви цього не зробите, воно нічого не додає на сторінку.</p>
+    <p>Вимкнення сайту ставить його на паузу. Підсвітки зникають з відкритих вкладок цього сайту, і скрипт там знову не запускається, доки ви не увімкнете сайт назад. Дозвіл браузера зберігається, тому повторне ввімкнення не питає доступ удруге. «Remove access to this site» забирає дозвіл. Наступного разу, коли ви увімкнете цей сайт, браузер спитає знову. Збережені цитати в обох випадках лишаються в бібліотеці.</p>
 
     <h2>Резервні копії</h2>
     <p>Файл резервної копії створюється лише коли ви вибираєте Download backup. Він зберігається туди, куди браузер зберігає завантаження. Імпорт читає файл, який вибираєте ви. Ні те ні інше нікуди не надсилається.</p>
@@ -461,7 +461,7 @@
         <tr><td><code>storage</code></td><td>Зберігає налаштування на цьому комп’ютері: останній колір підсвітки, чи ставити курсор у поле нотатки, які увімкнені сайти ви вимкнули і як бібліотека сортує сайти. Цитати лежать у власній базі Розширення; цей дозвіл їх не зберігає.</td></tr>
         <tr><td><code>activeTab</code></td><td>Коли ви натискаєте значок на панелі, вікно читає адресу поточної вкладки, щоб показати перемикач цього сайту й переходити між підсвітками на сторінці.</td></tr>
         <tr><td><code>scripting</code></td><td>Запускає підсвітку в поточній вкладці одразу після ввімкнення сайту і у вже відкритих вкладках цього сайту, без перезавантаження сторінки. Коли сайт вимикають, знімає підсвітки з цих вкладок.</td></tr>
-        <tr><td>Доступ до сайтів</td><td>Під час встановлення не надається. Chrome питає по одному сайту, коли ви вперше його вмикаєте. Підсвітка працює лише на сайтах, які ви дозволили й не вимкнули. Вимкнення зупиняє її на сайті й зберігає дозвіл. «Remove access to this site» цей дозвіл забирає.</td></tr>
+        <tr><td>Доступ до сайтів</td><td>Під час встановлення не надається. Браузер питає по одному сайту, коли ви вперше його вмикаєте. У Chrome хост на нестандартному порту — окремий сайт. У Firefox дозвіл на хост покриває цей хост на будь-якому порту. Підсвітка працює лише на сайтах, які ви дозволили й не вимкнули. Вимкнення зупиняє її на сайті й зберігає дозвіл. «Remove access to this site» цей дозвіл забирає.</td></tr>
       </tbody>
     </table>
 
@@ -482,8 +482,8 @@
 
   <article id="zh_CN" lang="zh-CN" data-langs="zh zh-CN zh-Hans">
     <h1>隐私政策 — Hilitely</h1>
-    <p><strong>最近更新：</strong>2026 年 11 月 7 日</p>
-    <p>本政策说明 Chrome 扩展 <strong>Hilitely</strong>（下称“本扩展”）如何处理信息。</p>
+    <p><strong>最近更新：</strong>2026 年 11 月 8 日</p>
+    <p>本政策说明 Chrome 与 Firefox 扩展 <strong>Hilitely</strong>（下称“本扩展”）如何处理信息。</p>
 
     <h2>谁提供本扩展</h2>
     <p>本扩展由 <strong>PeterShift</strong> 发布。<br>联系方式：<strong>petershift.dev@gmail.com</strong></p>
@@ -505,8 +505,8 @@
     <p>哪里都不发。高亮留在浏览器里，存在本扩展在这台电脑上的自有数据库中。本扩展没有服务器、没有账户、不做分析，也不会发出网络请求。我们不会收到你的高亮、笔记，以及你阅读的页面地址。</p>
 
     <h2>它可以读取哪些网站</h2>
-    <p>本扩展不会请求读取所有网站。它只在你通过工具栏图标逐个启用的网站上运行，并由 Chrome 自己的权限对话框询问。在此之前，它不会向页面添加任何内容。</p>
-    <p>关闭某个网站会让它暂停。该网站已打开标签页上的高亮会消失，脚本也不会再次启动，直到你重新启用。Chrome 的权限仍然保留，所以重新启用不会再次询问。选择 “Remove access to this site” 会撤销权限。下次启用该网站时，Chrome 会再次询问。无论哪种情况，已保存的摘录都留在资料库中。</p>
+    <p>本扩展不会请求读取所有网站。它只在你通过工具栏图标逐个启用的网站上运行，并由浏览器自己的权限对话框询问。在 Chrome 中，非标准端口上的主机是单独的网站。在 Firefox 中，对某一主机的权限涵盖该主机的任意端口。在此之前，它不会向页面添加任何内容。</p>
+    <p>关闭某个网站会让它暂停。该网站已打开标签页上的高亮会消失，脚本也不会再次启动，直到你重新启用。浏览器的权限仍然保留，所以重新启用不会再次询问。选择 “Remove access to this site” 会撤销权限。下次启用该网站时，浏览器会再次询问。无论哪种情况，已保存的摘录都留在资料库中。</p>
 
     <h2>备份</h2>
     <p>只有在你选择 Download backup 时才会创建备份文件。它保存在浏览器存放下载文件的位置。导入会读取你选择的文件。两者都不会上传到任何地方。</p>
@@ -523,7 +523,7 @@
         <tr><td><code>storage</code></td><td>在这台电脑上保存设置：上次的高亮颜色、光标是否进入笔记框、你关闭了哪些已启用的网站，以及资料库如何排序。摘录保存在本扩展自己的数据库中；这项权限并不用来保存摘录。</td></tr>
         <tr><td><code>activeTab</code></td><td>当你点击工具栏图标时，窗口会读取当前标签页的地址，以便显示该网站的开关，并在这一页的高亮之间跳转。</td></tr>
         <tr><td><code>scripting</code></td><td>在你启用网站后立即在当前标签页启动高亮，也对已经打开的该网站标签页这样做，因此不必刷新页面。关闭网站时，会从这些标签页上移除高亮。</td></tr>
-        <tr><td>网站访问权限</td><td>安装时不会授予。Chrome 在你第一次启用某个网站时逐个询问。高亮只在你允许且没有关闭的网站上运行。关闭网站会在该网站上停用高亮，但保留权限。“Remove access to this site” 会撤销这项权限。</td></tr>
+        <tr><td>网站访问权限</td><td>安装时不会授予。浏览器在你第一次启用某个网站时逐个询问。在 Chrome 中，非标准端口上的主机是单独的网站。在 Firefox 中，对某一主机的权限涵盖该主机的任意端口。高亮只在你允许且没有关闭的网站上运行。关闭网站会在该网站上停用高亮，但保留权限。“Remove access to this site” 会撤销这项权限。</td></tr>
       </tbody>
     </table>
 
@@ -544,8 +544,8 @@
 
   <article id="ro" lang="ro">
     <h1>Politica de confidențialitate — Hilitely</h1>
-    <p><strong>Ultima actualizare:</strong> 7 noiembrie 2026</p>
-    <p>Această politică descrie modul în care extensia Chrome <strong>Hilitely</strong> („Extensia”) tratează informațiile.</p>
+    <p><strong>Ultima actualizare:</strong> 8 noiembrie 2026</p>
+    <p>Această politică descrie modul în care extensia <strong>Hilitely</strong> pentru Chrome și Firefox („Extensia”) tratează informațiile.</p>
 
     <h2>Cine oferă Extensia</h2>
     <p>Extensia este publicată de <strong>PeterShift</strong>.<br>Contact: <strong>petershift.dev@gmail.com</strong></p>
@@ -567,8 +567,8 @@
     <p>Nicăieri. Evidențierile rămân în browser, în baza de date proprie a Extensiei, pe acest calculator. Extensia nu are server, cont sau analitice. Extensia nu face cereri de rețea. Nu primim niciodată evidențierile, notele sau adresele paginilor pe care le citiți.</p>
 
     <h2>Ce site-uri poate citi</h2>
-    <p>Extensia nu cere să citească toate site-urile. Rulează numai pe site-urile pe care le activați din pictograma din bara de instrumente, câte un site, prin dialogul de permisiuni al Chrome. Până atunci, nu adaugă nimic pe pagină.</p>
-    <p>Oprirea unui site îl pune pe pauză. Evidențierile dispar din filele deschise ale acelui site, iar scriptul nu mai pornește acolo până nu reactivați site-ul. Permisiunea Chrome rămâne, așa că reactivarea nu cere accesul a doua oară. „Remove access to this site” retrage permisiunea. Data viitoare când activați acel site, Chrome întreabă din nou. Citatele salvate rămân în bibliotecă în ambele cazuri.</p>
+    <p>Extensia nu cere să citească toate site-urile. Rulează numai pe site-urile pe care le activați din pictograma din bara de instrumente, câte un site, prin dialogul de permisiuni al browserului. În Chrome, o gazdă pe un port nestandard este un site separat. În Firefox, permisiunea pentru o gazdă acoperă acea gazdă pe orice port. Până atunci, nu adaugă nimic pe pagină.</p>
+    <p>Oprirea unui site îl pune pe pauză. Evidențierile dispar din filele deschise ale acelui site, iar scriptul nu mai pornește acolo până nu reactivați site-ul. Permisiunea browserului rămâne, așa că reactivarea nu cere accesul a doua oară. „Remove access to this site” retrage permisiunea. Data viitoare când activați acel site, browserul întreabă din nou. Citatele salvate rămân în bibliotecă în ambele cazuri.</p>
 
     <h2>Copii de rezervă</h2>
     <p>Un fișier de rezervă este creat numai când alegeți Download backup. Este salvat acolo unde browserul salvează descărcările. Importul unei copii citește un fișier pe care îl alegeți. Niciuna dintre acestea nu este încărcată nicăieri.</p>
@@ -585,7 +585,7 @@
         <tr><td><code>storage</code></td><td>Salvează setările pe acest calculator: ultima culoare de evidențiere, dacă cursorul trece în câmpul de notă, ce site-uri activate le-ați oprit și cum sortează biblioteca site-urile. Citatele sunt păstrate în baza de date proprie a Extensiei; această permisiune nu le stochează.</td></tr>
         <tr><td><code>activeTab</code></td><td>Când apăsați pictograma din bară, fereastra citește adresa filei curente, ca să arate comutatorul acelui site și să parcurgă evidențierile de pe pagină.</td></tr>
         <tr><td><code>scripting</code></td><td>Pornește evidențierea în fila curentă imediat după ce activați site-ul și în filele acelui site deja deschise, fără să reîncarce pagina. Când opriți site-ul, scoate evidențierile din acele file.</td></tr>
-        <tr><td>Acces la site-uri</td><td>Nu este acordat la instalare. Chrome cere câte un site, prima dată când îl activați. Evidențierea rulează numai pe site-urile pe care le-ați permis și nu le-ați oprit. Oprirea o oprește pe acel site și păstrează permisiunea. „Remove access to this site” o retrage.</td></tr>
+        <tr><td>Acces la site-uri</td><td>Nu este acordat la instalare. Browserul cere câte un site, prima dată când îl activați. În Chrome, o gazdă pe un port nestandard este un site separat. În Firefox, permisiunea pentru o gazdă acoperă acea gazdă pe orice port. Evidențierea rulează numai pe site-urile pe care le-ați permis și nu le-ați oprit. Oprirea o oprește pe acel site și păstrează permisiunea. „Remove access to this site” o retrage.</td></tr>
       </tbody>
     </table>
 

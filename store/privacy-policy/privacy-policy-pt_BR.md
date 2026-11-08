@@ -1,8 +1,8 @@
 # Política de privacidade — Hilitely
 
-**Última atualização:** 7 de novembro de 2026
+**Última atualização:** 8 de novembro de 2026
 
-Esta política descreve como a extensão do Chrome **Hilitely** (“a Extensão”) lida com informações.
+Esta política descreve como a extensão **Hilitely** para Chrome e Firefox (“a Extensão”) lida com informações.
 
 ## Quem fornece a Extensão
 
@@ -30,9 +30,9 @@ Para lugar nenhum. Os destaques ficam no navegador, no banco de dados próprio d
 
 ## Quais sites ela pode ler
 
-A Extensão não pede para ler todos os sites. Ela só funciona nos sites que você ativa pelo ícone da barra, um site de cada vez, pelo diálogo de permissão do Chrome. Até você fazer isso, ela não acrescenta nada à página.
+A Extensão não pede para ler todos os sites. Ela só funciona nos sites que você ativa pelo ícone da barra, um site de cada vez, pelo diálogo de permissão do navegador. No Chrome, um host em uma porta fora do padrão é um site separado. No Firefox, a permissão de um host cobre esse host em qualquer porta. Até você fazer isso, ela não acrescenta nada à página.
 
-Desligar um site o coloca em pausa. Os destaques somem das abas abertas desse site, e o script não volta a iniciar ali até você ligá-lo de novo. A permissão do Chrome permanece, então ligar de novo não pede acesso outra vez. “Remove access to this site” retira a permissão. Na próxima vez que você ativar esse site, o Chrome pergunta de novo. As citações salvas continuam na biblioteca nos dois casos.
+Desligar um site o coloca em pausa. Os destaques somem das abas abertas desse site, e o script não volta a iniciar ali até você ligá-lo de novo. A permissão do navegador permanece, então ligar de novo não pede acesso outra vez. “Remove access to this site” retira a permissão. Na próxima vez que você ativar esse site, o navegador pergunta de novo. As citações salvas continuam na biblioteca nos dois casos.
 
 ## Backups
 
@@ -49,7 +49,7 @@ Apague um destaque na página ou na biblioteca, ou use Delete all on this site n
 | `storage` | Guarda configurações neste computador: a última cor de destaque, se o cursor vai para a nota, quais sites ativados você desligou e como a biblioteca ordena os sites. As citações ficam no banco próprio da Extensão; esta permissão não as guarda. |
 | `activeTab` | Quando você clica no ícone da barra, a janela lê o endereço da aba atual para mostrar o interruptor daquele site e percorrer os destaques da página. |
 | `scripting` | Inicia o destaque na aba atual logo depois que você ativa o site, e nas abas daquele site que já estão abertas, sem recarregar a página. Ao desligar o site, remove os destaques dessas abas. |
-| Acesso a sites | Não é concedido na instalação. O Chrome pede um site de cada vez, na primeira vez que você o ativa. O destaque só funciona nos sites que você permitiu e não desligou. Desligar interrompe o destaque naquele site e mantém a permissão. “Remove access to this site” a remove. |
+| Acesso a sites | Não é concedido na instalação. O navegador pede um site de cada vez, na primeira vez que você o ativa. No Chrome, um host em uma porta fora do padrão é um site separado. No Firefox, a permissão de um host cobre esse host em qualquer porta. O destaque só funciona nos sites que você permitiu e não desligou. Desligar interrompe o destaque naquele site e mantém a permissão. “Remove access to this site” a remove. |
 
 ## Código remoto
 

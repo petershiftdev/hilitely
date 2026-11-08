@@ -1,8 +1,8 @@
 # Politique de confidentialité — Hilitely
 
-**Dernière mise à jour :** 7 novembre 2026
+**Dernière mise à jour :** 8 novembre 2026
 
-Cette politique décrit comment l'extension Chrome **Hilitely** (« l'Extension ») traite les informations.
+Cette politique décrit comment l'extension **Hilitely** pour Chrome et Firefox (« l'Extension ») traite les informations.
 
 ## Qui fournit l'Extension
 
@@ -30,9 +30,9 @@ Nulle part. Les surlignages restent dans le navigateur, dans la base propre à l
 
 ## Quels sites elle peut lire
 
-L'Extension ne demande pas à lire tous les sites. Elle ne fonctionne que sur les sites que vous activez depuis l'icône de la barre d'outils, un site à la fois, par la boîte de permission de Chrome. Tant que vous ne le faites pas, elle n'ajoute rien à la page.
+L'Extension ne demande pas à lire tous les sites. Elle ne fonctionne que sur les sites que vous activez depuis l'icône de la barre d'outils, un site à la fois, par la boîte de permission du navigateur. Dans Chrome, un hôte sur un port non standard est un site à part. Dans Firefox, l'autorisation d'un hôte couvre cet hôte sur n'importe quel port. Tant que vous ne le faites pas, elle n'ajoute rien à la page.
 
-Désactiver un site le met en pause. Les surlignages disparaissent des onglets ouverts de ce site, et le script n'y redémarre pas tant que vous ne le réactivez pas. L'autorisation de Chrome reste en place, donc la réactivation ne redemande pas l'accès. « Remove access to this site » retire l'autorisation. La prochaine fois que vous activez ce site, Chrome redemande. Les citations enregistrées restent dans la bibliothèque dans les deux cas.
+Désactiver un site le met en pause. Les surlignages disparaissent des onglets ouverts de ce site, et le script n'y redémarre pas tant que vous ne le réactivez pas. L'autorisation du navigateur reste en place, donc la réactivation ne redemande pas l'accès. « Remove access to this site » retire l'autorisation. La prochaine fois que vous activez ce site, le navigateur redemande. Les citations enregistrées restent dans la bibliothèque dans les deux cas.
 
 ## Sauvegardes
 
@@ -49,7 +49,7 @@ Supprimez un surlignage depuis la page ou la bibliothèque, ou utilisez Delete a
 | `storage` | Enregistre les réglages sur cet ordinateur : la dernière couleur de surlignage, le placement du curseur dans la note, les sites activés que vous avez désactivés et le tri des sites dans la bibliothèque. Les citations sont dans la base propre à l'Extension ; cette autorisation ne les stocke pas. |
 | `activeTab` | Lorsque vous cliquez sur l'icône de la barre, la fenêtre lit l'adresse de l'onglet actuel pour afficher l'interrupteur de ce site et parcourir les surlignages de la page. |
 | `scripting` | Démarre le surlignage dans l'onglet actuel juste après l'activation du site, et dans les onglets déjà ouverts de ce site, sans recharger la page. Lorsque vous désactivez le site, les surlignages sont retirés de ces onglets. |
-| Accès aux sites | Il n'est pas accordé à l'installation. Chrome demande un site à la fois, la première fois que vous l'activez. Le surlignage ne fonctionne que sur les sites que vous avez autorisés et pas désactivés. Le désactiver l'arrête sur ce site et conserve l'autorisation. « Remove access to this site » la retire. |
+| Accès aux sites | Il n'est pas accordé à l'installation. Le navigateur demande un site à la fois, la première fois que vous l'activez. Dans Chrome, un hôte sur un port non standard est un site à part. Dans Firefox, l'autorisation d'un hôte couvre cet hôte sur n'importe quel port. Le surlignage ne fonctionne que sur les sites que vous avez autorisés et pas désactivés. Le désactiver l'arrête sur ce site et conserve l'autorisation. « Remove access to this site » la retire. |
 
 ## Code distant
 
